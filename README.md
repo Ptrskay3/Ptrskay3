@@ -8,6 +8,7 @@ Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and gradua
 ```python
 from dataclasses import dataclass
 from enum import Enum, auto
+from typing import Tuple, List
 
 class ExperienceLevel(Enum):
     BASIC = auto()
@@ -28,8 +29,8 @@ class Library:
 
 @dataclass
 class Info:
-    libs: list[Library]
-    lang: (str, ExperienceLevel) = "Python", ExperienceLevel.ADVANCED
+    libs: List[Library]
+    lang: Tuple[str, ExperienceLevel] = ("Python", ExperienceLevel.ADVANCED)
 
     def build_skill_str(self) -> str:
         return f"{self.lang[0]}: {self.lang[1].name}\n" + "\n".join(map(str, [lib for lib in self.libs]))
@@ -47,6 +48,7 @@ if __name__ == "__main__":
         Library("OpenCV", ExperienceLevel.BASIC)
     ])
     print(info.build_skill_str())
+
 ```
 
 </details>
