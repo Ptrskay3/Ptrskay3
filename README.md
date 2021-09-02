@@ -1,6 +1,9 @@
-Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming at the start of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I'm always looking to improve and pick up new things. Below you can find some code snippets in different langues that serves as an exhaustive list about what I've worked with so far. You may read them if interested, or even try running some.
+Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming at the start of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I'm always looking to improve and pick up new things. Below you can find some hidden code snippets in different languages that serves as an exhaustive list about what I've worked with so far. You may read them if interested, or even try running some.
 
-# Python
+## Python
+
+<details>
+  <summary>Click to expand!</summary>
 
 ```python
 from dataclasses import dataclass
@@ -46,7 +49,12 @@ if __name__ == "__main__":
     print(info.build_skill_str())
 ```
 
-# JavaScript / TypeScript
+</details>
+
+## JavaScript / TypeScript
+
+<details>
+  <summary>Click to expand!</summary>
 
 You may run this on [CodeSandbox](https://codesandbox.io/s/skills-4u41y?file=/src/App.tsx).
 
@@ -94,7 +102,12 @@ export const Skills: React.FC<{}> = () => {
 };
 ```
 
-# Rust
+</details>
+
+## Rust
+
+<details>
+  <summary>Click to expand!</summary>
 
 You may run this on [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=d032609c288a817627627d76848fdb0d).
 
@@ -142,8 +155,12 @@ fn main() {
 }
 ```
 
-# Miscellaneous
+</details>
 
+## Miscellaneous
+
+<details>
+  <summary>Click to expand!</summary>
 Things that would be a mistake leaving out..
 
 ## Docker
@@ -171,7 +188,7 @@ class Experience
 {
    public static string GetExperience()
    {
-       throw new TimeoutException("I'm just learning C#, give me more time!");
+       throw new TimeoutException("I'm just learning C#, there's nothing fancy here yet!");
    }
 
    public static void Main()
@@ -204,3 +221,23 @@ git push
 ```bash
 ps aux | rg "Linux & bash"
 ```
+
+## HTML & CSS
+
+```html
+<html>
+  <head>
+    <style>
+      .experience-level {
+        transform: rotateY(180deg) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="experience-level">Experience level:</h1>
+    <script src="../display_my_basic_experience.js"></script>
+  </body>
+</html>
+```
+
+</details>
