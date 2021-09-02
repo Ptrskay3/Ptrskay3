@@ -1,4 +1,4 @@
-Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming at the start of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I'm always looking to improve and pick up new things. Below you can find some hidden code snippets in different languages that serves as an exhaustive list about what I've worked with so far. You may read them if interested, or even try running some.
+Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming in the beginning of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I'm always looking to improve and pick up new things. Below you can find some hidden code snippets in different languages that serves as an exhaustive list about what I've worked with so far. You may read them if interested, or even try running some.
 
 ## Python
 
