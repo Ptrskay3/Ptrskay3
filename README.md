@@ -165,7 +165,7 @@ Things that would be a mistake leaving out..
 
 ## Docker
 
-```docker
+```dockerfile
 FROM my_experience
 EXPOSE Docker
 ENV experience_level BASIC
@@ -173,7 +173,7 @@ ENV experience_level BASIC
 
 ## PostgreSQL
 
-```PostgreSQL
+```sql
 SELECT name, experience_level
 FROM my_experience
 WHERE name='PostgreSQL';
