@@ -1,4 +1,4 @@
-Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming in the beginning of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I'm always looking to improve and pick up new things. Below you can find some hidden code snippets in different languages that serves as an exhaustive list about what I've worked with so far. You may read them if interested, or even try running some.
+Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist in 2021. I started to learn programming in the beginning of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Python, JavaScript, TypeScript and Rust._ I generally love building software. I'm always looking to improve and pick up new things. Below you can find some hidden code snippets in different languages that serves as an exhaustive list about the tools I've worked with so far. You may read them if interested, or even try running some.
 
 ## Python
 
@@ -255,5 +255,12 @@ $ history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr
   </body>
 </html>
 ```
+
+## Theory, interests and others
+
+I have experience with OOP and functional programming.
+I'm familiar with data structures and algorithms.
+I'm generally well-versed in math.
+I have a broad interest range, currently the most exciting topics for me are: concurrent programming, Rust, probability theory, machine learning.
 
 </details>
