@@ -41,6 +41,7 @@ if __name__ == "__main__":
         Library("Scipy", ExperienceLevel.EXPERIENCED),
         Library("Matplotlib", ExperienceLevel.EXPERIENCED, contributed=True),
         Library("Pandas", ExperienceLevel.INTERMEDIATE),
+        Library("Jupyter Notebook", ExperienceLevel.ADVANCED)
         Library("Django", ExperienceLevel.BASIC),
         Library("Scikit-learn", ExperienceLevel.EXPERIENCED),
         Library("Tensorflow", ExperienceLevel.BASIC),
@@ -113,7 +114,7 @@ export const Skills: React.FC<{}> = () => {
 
 You may run this on [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=d032609c288a817627627d76848fdb0d).
 
-```rs
+```rust
 #[derive(Debug)]
 struct Info<'a> {
     libs: Vec<Library<'a>>
@@ -169,16 +170,18 @@ Things that would be a mistake leaving out..
 
 ```dockerfile
 FROM my_experience
+COPY . .
 EXPOSE Docker
 ENV experience_level BASIC
+RUN ["echo", "$experience_level"]
 ```
 
 ## PostgreSQL
 
 ```sql
-SELECT name, experience_level
+SELECT lib_name, experience_level
 FROM my_experience
-WHERE name='PostgreSQL';
+WHERE lib_name='PostgreSQL';
 ```
 
 ## C#
@@ -206,7 +209,7 @@ class Experience
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    println("Experience Level: Basic");
+    println("Nothing fancy here either, yet!");
 }
 ```
 
@@ -214,14 +217,25 @@ int main(int argc, char *argv[]) {
 
 ```bash
 git add my_experience/git &&
-git commit -m "update experience" &&
-git push
+git commit -m "updated experience" &&
+git tag -a "0.1.0" -m "first release" &&
+git push --tags
 ```
 
 ## Linux & bash
 
 ```bash
-ps aux | rg "Linux & bash"
+$ history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr | head
+    178 git
+    111 cd
+     78 yarn
+     31 cargo
+     20 python3
+     17 ssh
+     15 exa
+     14 eval
+     13 rustup
+     13 rg
 ```
 
 ## HTML & CSS
