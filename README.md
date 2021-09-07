@@ -33,7 +33,7 @@ class Info:
     lang: Tuple[str, ExperienceLevel] = ("Python", ExperienceLevel.ADVANCED)
 
     def build_skill_str(self) -> str:
-        return f"{self.lang[0]}: {self.lang[1].name}\n" + "\n".join(map(str, [lib for lib in self.libs]))
+        re)turn f"{self.lang[0]}: {self.lang[1].name}\n" + "\n".join(map(str, [lib for lib in self.libs]))
 
 if __name__ == "__main__":
     info = Info([
@@ -258,9 +258,11 @@ $ history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr
 
 ## Theory, interests and others
 
+
 I have experience with OOP and functional programming.
 I'm familiar with data structures and algorithms.
 I'm generally well-versed in math.
 I have a broad interest range, currently the most exciting topics for me are: concurrent programming, Rust, probability theory, machine learning.
+[According to CodersRank, I'm amongst the top 5 developer with Python, Jupyter Notebook and Rust in Hungary (which might be an overstatement if you ask me).](https://profile.codersrank.io/user/ptrskay3)
 
 </details>
