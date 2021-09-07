@@ -33,7 +33,7 @@ class Info:
     lang: Tuple[str, ExperienceLevel] = ("Python", ExperienceLevel.ADVANCED)
 
     def build_skill_str(self) -> str:
-        re)turn f"{self.lang[0]}: {self.lang[1].name}\n" + "\n".join(map(str, [lib for lib in self.libs]))
+        return f"{self.lang[0]}: {self.lang[1].name}\n" + "\n".join(map(str, [lib for lib in self.libs]))
 
 if __name__ == "__main__":
     info = Info([
@@ -257,7 +257,6 @@ $ history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr
 ```
 
 ## Theory, interests and others
-
 
 I have experience with OOP and functional programming.
 I'm familiar with data structures and algorithms.
