@@ -41,7 +41,7 @@ if __name__ == "__main__":
         Library("Scipy", ExperienceLevel.EXPERIENCED),
         Library("Matplotlib", ExperienceLevel.EXPERIENCED, contributed=True),
         Library("Pandas", ExperienceLevel.INTERMEDIATE),
-        Library("Jupyter Notebook", ExperienceLevel.ADVANCED)
+        Library("Jupyter Notebook", ExperienceLevel.ADVANCED),
         Library("Django", ExperienceLevel.BASIC),
         Library("Scikit-learn", ExperienceLevel.EXPERIENCED),
         Library("Tensorflow", ExperienceLevel.BASIC),
