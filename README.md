@@ -38,14 +38,15 @@ class Info:
 if __name__ == "__main__":
     info = Info([
         Library("Numpy", ExperienceLevel.ADVANCED),
-        Library("Scipy", ExperienceLevel.EXPERIENCED),
-        Library("Matplotlib", ExperienceLevel.EXPERIENCED, contributed=True),
-        Library("Pandas", ExperienceLevel.INTERMEDIATE),
         Library("Jupyter Notebook", ExperienceLevel.ADVANCED),
-        Library("Django", ExperienceLevel.BASIC),
+        Library("Scipy", ExperienceLevel.EXPERIENCED),
+        Library("Pytest", ExperienceLevel.EXPERIENCED),
+        Library("Matplotlib", ExperienceLevel.EXPERIENCED, contributed=True),
         Library("Scikit-learn", ExperienceLevel.EXPERIENCED),
-        Library("Tensorflow", ExperienceLevel.BASIC),
+        Library("Pandas", ExperienceLevel.INTERMEDIATE),
         Library("PyQt5", ExperienceLevel.INTERMEDIATE),
+        Library("Django", ExperienceLevel.BASIC),
+        Library("Tensorflow", ExperienceLevel.BASIC),
         Library("OpenCV", ExperienceLevel.BASIC)
     ])
     print(info.build_skill_str())
