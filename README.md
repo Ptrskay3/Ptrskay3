@@ -1,1 +1,1 @@
-Hi, I'm Peter 👋. I studied Math & Physics at University of Szeged, and graduated as a physicist. I started to learn programming in the beginning of 2018 and since then I used a broad range of tools and technologies. _To sum it up, I'm proficient with Rust, JavaScript, TypeScript, Python and Elixir._
+Former physicist turned developer with a passion for concurrency, distributed systems, web development and Rust.
